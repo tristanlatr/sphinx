@@ -57,6 +57,13 @@ Epydoc
    There's a third-party extension providing an `api role`_ which refers to
    Epydoc's API docs for a given identifier.
 
+Pydoctor
+   `pydoctor <https://github.com/twisted/pydoctor>`_ is an API documentation 
+   generator primarily written to replace Epydoc for the purposes of the Twisted project. 
+   It is compatible with `intersphinx <https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html>`_
+   and can integrate to your Sphinx build. 
+   
+
 Doxygen
    Michael Jones is developing a reST/Sphinx bridge to doxygen called `breathe
    <https://github.com/michaeljones/breathe/tree/master>`_.
